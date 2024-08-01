@@ -1,0 +1,1659 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.antic-didone-regular {
+    font-family: "Antic Didone", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabin-uniquifier {
+    font-family: "Cabin", sans-serif;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+a.dark-blue-btn:hover {
+    background: #607684;
+    border: 0px !important;
+}
+
+a.transparent-btn:hover {
+    background: #607684;
+    border: 0px;
+}
+
+a.navbar-brand img.img-fluid {
+    max-width: 142px;
+    width: 100%;
+}
+
+.container {
+    padding-left: 126px !important;
+    padding-right: 126px !important;
+    max-width: 1920px !important;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+    text-align: left;
+    font: normal normal normal 18px / 22px Cabin;
+    letter-spacing: 0px;
+    font-weight: 400;
+    color: #252525;
+    opacity: 1;
+}
+
+li.nav-item.call-btn a.nav-link span {
+    color: #FFFFFF;
+    text-align: left;
+    font: normal normal normal 18px/22px Cabin;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* ul.navbar-nav.list-item-second li.nav-item:hover {
+    background: #607684;
+    border: 0px !important;
+} */
+
+.nav-item.call-btn:hover {
+    background: #607684;
+    border: 0px !important;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-transparent {
+    padding: 30px 0px;
+}
+
+li.nav-item.call-btn {
+    background: #5AB1EC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 13px 20px;
+}
+
+.nav-item.call-btn {
+    background: #5AB1EC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 18px 65px;
+    text-align: center;
+    font: normal normal normal 18px / 22px Cabin;
+    letter-spacing: 0.54px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+ul.navbar-nav li.nav-item {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+a.nav-link img.img-fluid {
+    width: 23.84px;
+    height: 23.2px;
+}
+
+ul.navbar-nav.list-item-second a.nav-link {
+    margin-right: 20px;
+}
+
+ul.navbar-nav.list-item-second li.nav-item {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+ul.navbar-nav.list-item-second {
+    margin-left: 100px !important;
+}
+
+/* ----------------------------home-page------------------------ */
+section#home-1 .carousel-item img.d-block.w-100 {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.blind-curtain .carousel-caption.d-md-block {
+    top: 26%;
+}
+
+h5.hero-slide-title {
+    text-align: center;
+    font: normal normal bold 20px/110px Cabin;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+p.hero-slide-content {
+    text-align: center;
+    font: normal normal normal 90px/110px Antic Didone;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+a.transparent-btn {
+    text-align: center;
+    font: normal normal normal 18px/22px Cabin;
+    letter-spacing: 0.54px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    /* opacity: 1; */
+    text-decoration: none !important;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+    padding: 24px 30px;
+}
+
+a.dark-blue-btn {
+    text-align: center;
+    font: normal normal normal 18px/22px Cabin;
+    letter-spacing: 0.54px;
+    color: #FFFFFF;
+    border: 0px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    opacity: 1;
+    background-color: #5AB1EC;
+    padding: 24px 30px;
+}
+
+.discover-btn-hero {
+    margin-top: 80px;
+}
+
+section#home-5 {
+    margin-top: 130px;
+}
+
+section#home-1 .carousel-indicators button {
+    opacity: 1;
+    width: 13px;
+    height: 13px;
+    border-radius: 100px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px !important;
+
+}
+
+section#home-1 .carousel-indicators button.active {
+    background-color: #5AB1ED;
+}
+
+section#home-1 .carousel-indicators {
+    position: absolute;
+    right: 0px !important;
+    top: 2%;
+    bottom: 0px;
+    left: auto;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin-right: 4% !important;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+
+
+.blind-curtain1 img.home-about-bg {
+    background-position: center;
+    background-size: cover;
+}
+
+.home-parent-section {
+    padding: 150px 150px 60px 150px;
+}
+
+h1.home-about-title {
+    color: var(--unnamed-color-96a9b5);
+    text-align: left;
+    font: normal normal normal 70px/80px Antic Didone;
+    letter-spacing: 0px;
+    color: #96A9B5;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+p.home-about-description {
+    text-align: left;
+    font: normal normal normal 20px/30px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+    padding: 30px 13px 0px 13px;
+}
+
+.home-about-section {
+    padding-left: 80px;
+}
+
+.blue-btn-parent {
+    margin-top: 60px;
+    padding-left: 15px;
+}
+
+.home-material-card {
+    background: #D9E2E8;
+    text-align: center;
+    padding: 0px 60px;
+    min-height: 556px;
+    position: relative;
+    height: 556px;
+}
+
+.home-material-card.color-card h5.home-material-title {
+    color: #FFFFFF;
+}
+
+.home-material-card.color-card p.home-material-description {
+    color: #ffff;
+}
+
+.color-card {
+    background: #D9E2E8;
+    text-align: center;
+}
+
+h5.home-material-title {
+    text-align: center;
+    font: normal normal normal 45px/63px Antic Didone;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+p.home-material-description {
+    text-align: center;
+    font: normal normal normal 20px/30px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+    padding: 10px 0px 80px 0px;
+
+}
+
+.home-material-card.color-card {
+    background: #96A8B5 !important;
+}
+
+.material-card-parent {
+    padding: 0px !important;
+}
+
+.home-material-card img.img-fluid {
+    padding: 90px 0px 40px 0px;
+}
+
+.blue-bottom-border {
+    background: #5AB1EC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 15px !important;
+    width: 410px;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+
+}
+
+
+.hover-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-image img {
+    transition: transform 0.5s ease;
+    overflow: hidden;
+
+}
+
+
+
+.hover-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 16px;
+    width: 93%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 0.5s;
+}
+
+.hover-image:hover::before {
+    opacity: 1;
+}
+
+.hover-image .blue-btn-parent {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    width: 100%;
+    margin: 0px !important;
+    transform: translate(-39%, -50%);
+}
+
+.hover-image:hover .blue-btn-parent {
+    display: block;
+}
+
+.light-bottom-border {
+    background: #D8E2E8 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 15px !important;
+    width: 410px;
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+}
+
+h6.product-slider-title {
+    color: var(--unnamed-color-96a9b5);
+    text-align: center;
+    font: normal normal normal 25px/30px Cabin;
+    letter-spacing: 0px;
+    color: #96A9B5;
+    opacity: 1;
+    padding: 38px 0px 0px 0px;
+}
+
+p.product-slider-price {
+    text-align: center;
+    font: normal normal normal 20px/30px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+.home-quality-section {
+    padding: 150px 0px 60px 0px;
+}
+
+.home-slider {
+    padding-top: 80px;
+}
+
+
+.home-contact-section .home-material-description {
+    width: 100%;
+    margin-left: initial;
+    text-align: left;
+    color: #FFFFFF;
+    max-width: 389px;
+}
+
+.home-contact-section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+span.or {
+    text-align: left;
+    font: normal normal normal 30px / 36px Antic Didone;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.home-quality-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-contact-section1 .footer-call img.img-fluid {
+    max-width: 70px;
+    height: 70px;
+}
+
+.home-contact-section1 .footer-call a {
+    text-align: left;
+    font: normal normal normal 30px/37px Cabin;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* ------------footer---------------- */
+span.footer-bottom-conditions {
+    text-align: left;
+    font: normal normal normal 15px/23px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+.footer-last-part img.img-fluid {
+    max-width: 29.71px;
+    height: 16px;
+}
+
+.footer-last-part {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    align-items: center;
+}
+
+.footer-section {
+    background: #607684;
+    padding: 80px 0px;
+}
+
+.footer-menu a.nav-link {
+    text-align: left;
+    font: normal normal normal 18px / 22px Cabin;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+span.footer-phone-number a {
+    text-align: left;
+    font: normal normal normal 25px/30px Cabin;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-decoration: none;
+    opacity: 1;
+    margin: 0px !important;
+}
+
+span.footer-phone-number {
+    margin: 0px !important;
+}
+
+.footer-call {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu a.nav-link {
+    text-align: left;
+    font: normal normal normal 18px/22px Cabin;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.footer-call img.img-fluid {
+    max-width: 50px;
+    height: 50px;
+}
+.footer-3 {
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+}
+
+.footer-3 img.img-fluid {
+    width: 80px;
+    height: 80px;
+}
+
+/* ------------slick-home-------- */
+.home-slider .wrapper {
+    padding: 70px 0;
+    overflow-x: hidden;
+}
+
+
+.my-slider {
+    padding: 0 70px;
+}
+
+.home-slider .slick-initialized.slick-slide {
+    color: #FFF;
+    margin: 0 30px 0 0;
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slick-slide img {
+    margin: auto;
+}
+
+.slick-slide img:hover {
+    display: block;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.product-slider-home {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+
+.slick-next,
+.slick-prev {
+    z-index: 5;
+}
+
+.slick-next {
+    right: 30px !important;
+}
+
+.slick-prev {
+    left: 30px !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: #000;
+    font-size: 26px;
+}
+
+.slick-next:before,
+[dir=rtl] .slick-prev:before {
+    content: url(./images/arrow-right-blue.svg) !important;
+}
+
+.slick-prev:before,
+[dir=rtl] .slick-next:before {
+    content: url(./images/arrow-left-blue.svg) !important;
+}
+
+.hover-image a.dark-blue-btn {
+    padding: 18px 33px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* -----------------about-us----------------------- */
+
+.about-us-section {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p.home-about-us {
+    text-align: center;
+    font: normal normal normal 17px / 30px Cabin;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.about-hero-content {
+    padding: 265px 0px;
+}
+
+.why-choose h2 {
+    text-align: center;
+    font: normal normal normal 50px / 80px Antic Didone;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+.why-choose-parent {
+    text-align: center;
+}
+
+h5.why-choose-title {
+    text-align: center;
+    font: normal normal normal 30px / 110px Antic Didone;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+.about-second-section {
+    padding: 100px 0px 80px 0px;
+}
+
+.why-choose {
+    padding-bottom: 65px;
+}
+
+
+/* ---------------------------product--------------------- */
+
+h1.product-card-title {
+    text-align: left;
+    font: normal normal normal 35px/50px Antic Didone;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+    padding: 35px 0px 0px;
+}
+
+p.product-card-description {
+    text-align: left;
+    font: normal normal normal 18px/26px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+    padding-top: 12px;
+}
+
+.product-hero-content {
+    padding: 120px 0px 0px;
+}
+
+.product-parent-section {
+    padding: 100px 0px;
+}
+
+.product-parent-section .blue-btn-parent {
+    margin: 130px 0px 60px;
+}
+
+.product-cards {
+    margin-bottom: 80px;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.product-cards img.img-fluid {
+    transition: transform 0.5s;
+    /* Ensure the image has a smooth transition */
+    overflow: hidden;
+}
+
+.product-cards img.img-fluid:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+/* --------------gallery---------------------- */
+nav.gallery-product div#nav-tab {
+    border: 0px !important;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+nav.gallery-product div#nav-tab button {
+    border: 0px;
+}
+
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+nav.gallery-product .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    text-align: center;
+    font: normal normal normal 22px / 27px Cabin;
+    letter-spacing: 0.66px;
+    color: #5AB1ED !important;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+nav.gallery-product .nav-tabs .nav-link {
+    text-align: center;
+    font: normal normal normal 22px / 27px Cabin;
+    letter-spacing: 0.66px;
+    color: #252525;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+img.gallery-left-arrow {
+    margin-right: 10px;
+}
+
+img.gallery-right-arrow {
+    margin-left: 10px;
+}
+
+/* -------------------contact-us---------------------------- */
+.contact-hero-content {
+    padding: 263px 0px;
+}
+
+.contact-media {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 35px;
+
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.contact-media p.content-1 a {
+    text-align: left;
+    font: normal normal normal 18px/28px Cabin;
+    letter-spacing: 0px;
+    color: #96A9B5;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.contact-media p.content-1 {
+    text-align: left;
+    font: normal normal normal 18px/28px Cabin;
+    letter-spacing: 0px;
+    color: #96A9B5;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.contact-content p.content-2 {
+    text-align: left;
+    font: normal normal normal 25px/28px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+.contact-content p.content-2 a {
+    text-align: left;
+    font: normal normal normal 25px/28px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+.form-container input,
+.contact-textarea {
+    padding: 26px !important;
+    margin-bottom: 15px;
+}
+
+.form-container input::placeholder {
+    text-align: left;
+    font: normal normal normal 20px/28px Cabin;
+    letter-spacing: 0px;
+    color: #A1A1A1;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.contact-textarea::placeholder {
+    text-align: left;
+    font: normal normal normal 20px/28px Cabin;
+    letter-spacing: 0px;
+    color: #A1A1A1 !important;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.contact-us-section1 p.home-material-description.text-start {
+    max-width: 389px;
+}
+
+.submit-btn .dark-blue-btn {
+    padding: 20px 85px;
+}
+
+/* -------------shop-------------------- */
+.shop-category-main .form-check {
+    margin-bottom: 20px;
+}
+
+.shop-category {
+    padding-right: 80px;
+}
+
+.material-category {
+    padding-top: 30px;
+}
+
+.material-category {
+    padding-top: 40px;
+}
+
+.shop-pagination {
+    padding: 60px 0px 30px 0px;
+}
+
+.shop-product-2 {
+    padding-top: 60px;
+}
+
+/* ------------------shop-inner------------------ */
+.shop-inner-secondary h1.home-about-title {
+    text-align: left;
+    font: normal normal normal 55px / 110px Antic Didone;
+    letter-spacing: 0px;
+    color: #96A9B5;
+    opacity: 1;
+}
+
+.form-cart.detail-qty {
+    display: flex;
+}
+
+.shop-inner-secondary {
+    padding-left: 110px;
+}
+
+h6.shop-product-price {
+    text-align: left;
+    font: normal normal normal 30px/70px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+p.shop-product-description {
+    text-align: left;
+    font: normal normal normal 20px/28px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+.product-length {
+    text-align: left;
+    font: normal normal bold 17px/28px Cabin;
+    letter-spacing: 1.7px;
+    color: #96A9B5;
+    opacity: 1;
+}
+
+span.size {
+    text-align: center;
+    font: normal normal normal 20px/30px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+    border: 1px solid #252525;
+    padding: 20px 33px;
+    opacity: 1;
+}
+
+.product-size {
+    padding: 5px 0px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+input.qty-val.form-control.quantity {
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    border: 0px;
+    padding: 25px 6px;
+    text-align: center;
+    font: normal normal normal 25px/30px Cabin;
+    letter-spacing: 0px;
+    color: #252525;
+    opacity: 1;
+}
+
+.product-size-parent {
+    padding: 30px 0px 60px 0px;
+}
+
+input.qty-val.form-control.quantity:focus {
+    box-shadow: none !important;
+
+}
+
+a.custom-size {
+    text-align: left;
+    text-decoration: underline !important;
+    font: normal normal normal 18px / 22px Cabin;
+    letter-spacing: 0.54px;
+    color: #5AB1ED;
+    opacity: 1;
+}
+
+.form-cart.detail-qty {
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    min-width: 136px;
+    max-width: 200px;
+    width: 100%;
+}
+
+.form-cart .minus {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 60px;
+    height: 100%;
+    z-index: 2;
+    background-image: url(./images/icon-minus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.form-cart .plus {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 100%;
+    z-index: 2;
+    background-image: url(./images/icon-plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.add-to-cart {
+    background: #5AB1EC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 25px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+a.add-to-cart-btn {
+    text-align: center;
+    font: normal normal normal 18px/22px Cabin;
+    letter-spacing: 0.54px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+.product-last-part {
+    width: 100%;
+    display: inline-flex;
+    gap: 20px;
+}
+.product-liked {
+    padding: 60px 0px;
+}
+
+@media (max-width:1640px) {
+    .container {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+        max-width: 1620px !important;
+    }
+
+    li.nav-item.call-btn a.nav-link span {
+        color: #FFFFFF;
+        text-align: left;
+        font: normal normal normal 15px / 22px Cabin;
+    }
+
+    ul.navbar-nav li.nav-item {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    ul.navbar-nav li.nav-item a.nav-link {
+        text-align: left;
+        font: normal normal normal 15px / 22px Cabin;
+    }
+
+    ul.navbar-nav.list-item-second {
+        margin-left: 80px !important;
+    }
+
+    ul.navbar-nav.list-item-second a.nav-link {
+        margin-right: 10px;
+    }
+
+    a.nav-link img.img-fluid {
+        width: 18.84px;
+        height: 18.2px;
+    }
+
+    nav.navbar.navbar-expand-lg.bg-body-transparent {
+        padding: 15px 0px;
+    }
+
+    a.navbar-brand img.img-fluid {
+        max-width: 100px;
+        width: 100%;
+    }
+
+    li.nav-item.call-btn {
+        background: #5AB1EC 0% 0% no-repeat padding-box;
+        opacity: 1;
+        padding: 4px 9px;
+    }
+
+    h5.hero-slide-title {
+        font: normal normal bold 17px / 70px Cabin;
+    }
+
+    p.hero-slide-content {
+        font: normal normal normal 70px / 70px Antic Didone;
+    }
+
+    a.transparent-btn {
+        font: normal normal normal 15px / 17px Cabin;
+        padding: 16px 22px;
+    }
+
+    .discover-btn-hero {
+        margin-top: 60px;
+    }
+
+    section#home-1 .carousel-indicators button {
+        width: 8px;
+        height: 8px;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+
+    .home-parent-section {
+        padding: 80px 70px 20px 70px;
+    }
+
+    h1.home-about-title {
+        font: normal normal normal 50px / 57px Antic Didone;
+    }
+
+    .home-about-section {
+        padding-left: 60px;
+    }
+
+    p.home-about-description {
+        font: normal normal normal 15.5px / 25px Cabin;
+        padding: 20px 0px 0px 0px;
+    }
+
+    a.dark-blue-btn {
+        font: normal normal normal 15px / 22px Cabin;
+        padding: 14px 24px;
+    }
+
+    .blue-btn-parent {
+        margin-top: 40px;
+        padding-left: 0px;
+    }
+
+    .home-quality-section {
+        padding: 90px 10px 50px 10px;
+    }
+
+    h5.home-material-title {
+        font: normal normal normal 35px / 80px Antic Didone;
+    }
+
+    h5.home-material-title {
+        font: normal normal normal 30px / 41px Antic Didone;
+    }
+
+    .home-material-card img.img-fluid {
+        padding: 65px 0px 40px 0px;
+        max-width: 70.14px;
+    }
+
+    p.home-material-description {
+        text-align: center;
+        padding: 10px 0px 60px 0px;
+        font: normal normal normal 15.5px / 24px Cabin;
+    }
+
+    .blue-bottom-border {
+        background: #5AB1EC 0% 0% no-repeat padding-box;
+        opacity: 1;
+        height: 10px !important;
+        width: 270px;
+    }
+
+    .light-bottom-border {
+        background: #D8E2E8 0% 0% no-repeat padding-box;
+        opacity: 1;
+        height: 10px !important;
+        width: 270px;
+    }
+
+    .home-material-card {
+        padding: 0px 40px;
+        min-height: 410px;
+        height: 410px;
+    }
+
+    .home-slider {
+        padding-top: 50px;
+    }
+
+    .home-parent-section .home-slider .my-slider {
+        padding: 0 30px;
+    }
+
+    .home-parent-section .home-slider .slick-initialized.slick-slide {
+        background-color: #b32532;
+        color: #FFF;
+        margin: 0 15px 0 0;
+        display: flex;
+        align-items: center;
+        background-color: #FFF;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .product-slider.slick-slide {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    button.slick-prev.slick-arrow {
+        left: -25px;
+        top: 156px;
+    }
+
+    button.slick-next.slick-arrow {
+        right: -25px;
+        top: 156px;
+    }
+
+    h6.product-slider-title {
+        font: normal normal normal 18px / 19px Cabin;
+    }
+
+    p.product-slider-price {
+        font: normal normal normal 14.5px / 28px Cabin;
+    }
+
+    .slick-prev:before,
+    [dir=rtl] .slick-next:before {
+        background-image: url(./images/arrow-left-blue.svg) !important;
+        width: 13px;
+        height: 20px;
+        background-size: contain;
+        display: block;
+        content: "" !important;
+    }
+
+    .slick-next:before,
+    [dir=rtl] .slick-prev:before {
+        background-image: url(./images/arrow-right-blue.svg) !important;
+        width: 13px;
+        height: 20px;
+        background-size: contain;
+        display: block;
+        content: "" !important;
+    }
+
+    .home-contact-section .home-material-description {
+        max-width: 302px;
+    }
+
+    .home-contact-section1 .footer-call img.img-fluid {
+        max-width: 50px;
+        height: 50px;
+    }
+
+    .home-contact-section1 .footer-call a {
+        font: normal normal normal 20px / 37px Cabin;
+    }
+
+    span.or {
+        font: normal normal normal 20px / 36px Antic Didone;
+    }
+
+    .nav-item.call-btn {
+        padding: 12px 35px;
+        font: normal normal normal 15px / 22px Cabin;
+    }
+
+    section#home-5 {
+        margin-top: 80px;
+    }
+
+    .home-contact-section1 {
+        padding-top: 60px;
+    }
+
+    img.web-footer-logo.img-fluid {
+        max-width: 150px;
+    }
+
+    .footer-section {
+        padding: 60px 0px;
+    }
+
+    span.footer-phone-number a {
+        font: normal normal normal 18px / 26px Cabin;
+    }
+
+    .footer-call img.img-fluid {
+        max-width: 37px;
+        height: 37px;
+    }
+
+    .footer-menu a.nav-link {
+        font: normal normal normal 15px / 22px Cabin;
+    }
+
+    span.footer-bottom-conditions {
+        font: normal normal normal 12px / 0px Cabin;
+    }
+
+    .hover-image::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
+    /* -------------about-us-------------------- */
+    .about-second-section {
+        padding: 50px 0px 40px 0px;
+    }
+
+    .why-choose h2 {
+        text-align: center;
+        font: normal normal normal 35px / 55px Antic Didone;
+        letter-spacing: 0px;
+        color: #252525;
+        opacity: 1;
+    }
+
+    .why-choose {
+        padding-bottom: 35px;
+    }
+
+    h5.why-choose-title {
+        font: normal normal normal 25px / 90px Antic Didone;
+    }
+
+    .about-hero-content {
+        padding: 200px 0px;
+    }
+
+    /* --------------product----------------- */
+    .product-hero-content {
+        padding: 80px 0px 0px;
+    }
+
+    .product-parent-section {
+        padding: 60px 0px;
+    }
+
+    h1.product-card-title {
+        font: normal normal normal 25px / 29px Antic Didone;
+    }
+
+    p.product-card-description {
+        font: normal normal normal 15px / 22px Cabin;
+        padding-top: 0px;
+    }
+
+    .product-parent-section .blue-btn-parent {
+        margin: 40px 0px 40px;
+    }
+
+    /* ------------------gallery----------------- */
+    nav.gallery-product .nav-tabs .nav-link {
+        font: normal normal normal 18px / 27px Cabin;
+    }
+
+    ul.pagination a.page-link.border-0 {
+        font: normal normal 600 18px / 30px Cabin !important;
+    }
+
+    /* -----------------contact-us------------------------------- */
+    .contact-content p.content-2 a {
+        font: normal normal normal 18px / 5px Cabin;
+    }
+
+    .contact-media p.content-1 {
+        font: normal normal normal 15px / 23px Cabin;
+        margin-bottom: 0px;
+    }
+
+    .contact-content p.content-2 {
+        font: normal normal normal 15px / 21px Cabin;
+    }
+
+    .contact-hero-content {
+        padding: 200px 0px;
+    }
+
+    /* --------------shop----------------p */
+    .hover-image a.dark-blue-btn {
+        padding: 14px 24px;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
+
+    .shop-category-main .form-check {
+        margin-bottom: 10px;
+    }
+
+    .shop-product-2 {
+        padding-top: 40px;
+    }
+    .shop-inner-secondary h1.home-about-title {
+        font: normal normal normal 40px / 40px Antic Didone;
+    }
+    h6.shop-product-price {
+        font: normal normal normal 20px / 60px Cabin;
+    }
+    p.shop-product-description {
+        text-align: left;
+        font: normal normal normal 17px / 27px Cabin;
+    }
+    .shop-inner-secondary {
+        padding-left: 40px;
+    }
+    .product-length {
+        font: normal normal bold 15px / 20px Cabin;
+    }
+    span.size {
+        font: normal normal normal 15px / 30px Cabin;
+        padding: 5px 25px;
+    }
+    a.custom-size {
+        font: normal normal normal 15px / 22px Cabin;
+    }
+    input.qty-val.form-control.quantity {
+        padding: 0px 6px;
+        font: normal normal normal 18px / 21px Cabin;
+    }
+    .product-size-parent {
+        padding: 10px 0px 40px 0px;
+    }
+    .product-last-part {
+        height: 50px;
+    }
+    .add-to-cart {
+        padding: 14px 0px;
+    }
+    a.add-to-cart-btn {
+        font: normal normal normal 15px / 22px Cabin;
+    }
+    .form-cart.detail-qty {
+        max-width: 150px;
+    }
+    
+    /* ------------footer-------------------- */
+    .footer-3 img.img-fluid {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media(max-width:830px) {
+    .container {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        max-width: 700px !important;
+    }
+
+    p.hero-slide-content {
+        font: normal normal normal 40px / 33px Antic Didone;
+    }
+
+    h5.hero-slide-title {
+        font: normal normal bold 15px / 57px Cabin;
+    }
+
+    a.transparent-btn {
+        font: normal normal normal 13px / 13px Cabin;
+        padding: 13px 12px;
+    }
+
+    .discover-btn-hero {
+        margin-top: 45px;
+    }
+
+    .home-parent-section {
+        padding: 80px 40px 20px 40px;
+    }
+
+    .home-about-section {
+        padding-left: 0px;
+    }
+
+    h1.home-about-title {
+        font: normal normal normal 50px / 57px Antic Didone;
+        margin-top: 40px;
+        display: block;
+    }
+
+    .home-material-card {
+        margin: 0px 100px;
+    }
+
+    .material-card-parent {
+        padding: 0px !important;
+        margin: 10px;
+    }
+
+    button.slick-prev.slick-arrow {
+        left: -27px;
+        top: 114px;
+    }
+
+    button.slick-next.slick-arrow {
+        right: -27px;
+        top: 114px;
+    }
+
+    .home-contact-section .home-material-description {
+        padding: 0px !important;
+    }
+
+    .footer-menu-parent {
+        margin-top: 40px;
+    }
+
+    span.footer-bottom-conditions {
+        font: normal normal normal 12px / 30px Cabin;
+    }
+
+    .footer-last-part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-quality-section {
+        padding: 90px 10px 00px 10px;
+    }
+
+    .home-contact-section1 {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+
+
+    /* ---------------about-us---------------- */
+    p.home-about-us {
+        font: normal normal normal 14px / 25px Cabin;
+    }
+
+    .about-hero-content {
+        padding: 104px 0px;
+    }
+
+    /* -------product--------------- */
+    p.product-card-description {
+        font: normal normal normal 13px / 20px Cabin;
+        padding-top: 0px;
+    }
+
+    /* ----------contact------------------------- */
+    .contact-hero-content {
+        padding: 104px 0px;
+    }
+    .contact-map iframe {
+        width: 100%;
+    }
+    /* ------shop---------------p */
+    .hover-image .blue-btn-parent {
+        display: none;
+        position: absolute;
+        top: 50% !important;
+        left: 63% !important;
+        width: 100%;
+        transform: translate(-37%, -50%) !important;
+    }
+    .shop-inner-secondary {
+        padding-left: inherit;
+        padding-bottom: 60px;
+    }
+    ul.navbar-nav.list-item-second {
+        margin-left: 0px !important;
+    }
+    /* ---------------footer--------------------- */
+    .footer-3 {
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+    }
+    .footer-3 img.img-fluid {
+        width: 40px;
+        height: 40px;
+    }    
+}
+
+@media(max-width:430px) {
+    .discover-btn-hero {
+        margin-top: 20px;
+    }
+
+    a.transparent-btn {
+        font: normal normal normal 10px / 13px Cabin;
+        padding: 9px 7px;
+    }
+
+    h5.hero-slide-title {
+        font: normal normal bold 12px / 27px Cabin;
+    }
+
+    p.hero-slide-content {
+        font: normal normal normal 25px / 35px Antic Didone;
+    }
+
+    section#home-1 .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 2.25rem;
+    }
+
+    h1.home-about-title {
+        font: normal normal normal 25px / 37px Antic Didone;
+    }
+
+    p.home-about-description {
+        font: normal normal normal 12.5px / 18px Cabin;
+        padding: 20px 0px 0px 0px;
+    }
+
+    a.dark-blue-btn {
+        font: normal normal normal 13px / 20px Cabin;
+        padding: 12px 24px;
+    }
+
+    .home-material-card {
+        margin: 0px 40px;
+    }
+
+    .product-slider-home {
+        padding-left: 0px !important;
+        padding-right:
+            0px !important;
+    }
+
+    .home-contact-section1 {
+        display: block;
+        text-align: -webkit-center;
+
+    }
+
+    .footer-call {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .nav-item.call-btn {
+        padding: 12px 35px;
+        font: normal normal normal 15px / 22px Cabin;
+        margin-top: 20px;
+        max-width: 250px;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+
+    .footer-section .footer-call {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    span.footer-bottom-conditions {
+        text-align: center;
+    }
+
+    .product-slider.slick-slide {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .home-slider .wrapper {
+        padding: 0px 0;
+        overflow-x: hidden;
+    }
+
+    .home-quality-section {
+        padding: 20px 10px 00px 10px;
+    }
+
+    .home-slider {
+        padding-top: 30px;
+    }
+
+    .contact-hero-content {
+        padding: 104px 0px;
+    }
+    .hover-image .blue-btn-parent {
+        display: none;
+        position: absolute;
+        top: 50% !important;
+        left: 66% !important;
+        width: 100%;
+        transform: translate(-34%, -50%) !important;
+    }
+}
